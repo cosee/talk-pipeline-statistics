@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "elasticsearch": "https://deno.land/x/elasticsearch@v8.6.2/mod.ts",
+    "graphql_request": "https://deno.land/x/graphql_request@v4.1.0/src/index.ts",
+  },
+  "scopes": {
+  }
+}

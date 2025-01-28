@@ -1,0 +1,4 @@
+schema:
+  - https://gitlab.cosee.biz/api/graphql:
+      headers:
+        Authorization: Bearer ${TOKEN}
