@@ -23,11 +23,6 @@ const client = new Client({ node: "http://localhost:9200" });
 const index = "ci-jobs-backend";
 
 export async function reCreateJobIndex() {
-    try {
-        await client.indices.delete({ index });
-    } catch (error) {
-        console.error("Could not delete index", error);
-    }
     await client.indices.create({
         index,
         body: { mappings: { properties: jobSchema } },
