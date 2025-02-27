@@ -46,7 +46,12 @@ docker compose up -d
 
 ```
 
-## Links & Docs:
+## Presentation
+
+- Slides: https://speakerdeck.com/nknapp/why-is-my-pipeline-so-slow
+- Video: https://talks.cosee.biz/talk/28bd6c44-808b-4e3e-bf2e-adde0e8f7a7d
+
+## Links
 
 - Deno: https://deno.com/
 - Deno GraphQL: https://deno.land/x/graphql_request@v4.1.0
