@@ -1,0 +1,5 @@
+.idea/
+.envrc
+/elasticsearch
+*.envrc
+riddle
