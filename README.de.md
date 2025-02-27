@@ -1,4 +1,4 @@
-# Warum ist meine Pipeline so langsam? - Mit Deno, ElasticSearch und Kibana die CI/CD-Pipeline analysieren
+# Warum ist meine Pipeline so langsam? :snail: - Mit Deno, ElasticSearch und Kibana die CI/CD-Pipeline analysieren 
 
 Ist unsere CI-Pipeline langsamer geworden? Die Ende-zu-Ende-Tests sind
 in letzter Zeit ganz schön instabil. Seit wann brauchen unsere Deployments so lang?
