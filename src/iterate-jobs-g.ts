@@ -38,4 +38,20 @@ const client = new GraphQLClient(`${gitlabURL}/api/graphql`, {
     },
 });
 
+let hasNextPage = true
+let after : string | null = null
 
+
+while(hasNextPage) {
+    const response = await client.request(jobsQuery, {
+        fullProjectPath: gitlabProjectPath,
+        after: after
+    })
+    hasNextPage = response.project.jobs.pageInfo.hasNextPage
+    after = response.project.jobs.pageInfo.after
+
+    for (const edge of response.project.jobs.edges) {
+        console.log(edge.node)
+    }
+
+}
