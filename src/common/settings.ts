@@ -20,5 +20,8 @@ export function loadSettings() {
         get gitlabProjectPath() {
             return getRequiredEnvVar("GITLAB_PROJECT_PATH");
         },
+        get gitlabProjectMainRef() {
+            return getRequiredEnvVar("GITLAB_PROJECT_MAIN_REF");
+        },
     };
 }

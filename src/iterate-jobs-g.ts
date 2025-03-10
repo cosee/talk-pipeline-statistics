@@ -43,7 +43,7 @@ let after : string | null = null
 
 
 while(hasNextPage) {
-    const response = await client.request(jobsQuery, {
+    const response: any = await client.request(jobsQuery, {
         fullProjectPath: gitlabProjectPath,
         after: after
     })
